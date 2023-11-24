@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.getStartedBtn {
+  background: green;
+  color: white;
+  padding: 0.8rem 1rem;
+  border: 1px solid green;
+  border-radius: 10px;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.getStartedBtn:hover {
+  background: white;
+  color: green;
+}
+
+.loginBtn {
+  background: red;
+  color: white;
+  padding: 0.8rem 1rem;
+  border: 1px solid red;
+  border-radius: 10px;
+  transition: 500ms;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.loginBtn:hover {
+  background: white;
+  color: red;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.logoutBtn {
+  border: none;
+  margin-left: 0.5rem;
+  background: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  text-decoration: underline;
+}
+
+.photoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.photoContainer h3 {
+  margin-left: 0.5rem;
+}
+
+.photo {
+  border-radius: 50px;
+}
